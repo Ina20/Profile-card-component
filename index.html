@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./global.css">
+  <link href="https://fonts.google.com/specimen/Kumbh+Sans" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,21 +16,37 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="box">
+    <div id="card">
+      <div id="row1">
+        <img src="./images/image-victor.jpg"></img>
+      </div>
+      <div id="row2">
+        <div id="name">
+          Victor Crest
+          26
+          <span id="city">London<span>
+        </div>
+      </div>
+      <div id="row3">
+        <div class="stats">
+          80K
+          <span>Followers</span>
+        </div>
+        <div class="stats">
+          803K
+          <span>Likes</span>
+        </div>
+        <div class="stats">
+          1.4K
+          <span>Photos<span>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Ina20/Profile-card-component/tree/master">Ina</a>.
+    </div>
   </div>
 </body>
 </html>
